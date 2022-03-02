@@ -27,12 +27,56 @@ section {
 #welcome-section {
     padding-top: 250px;
     height: 100vh;
+    background: ghostwhite;
+}
+#welcome-section h1 {
+    font-size: 52px;
+}
+#welcome-section p {
+    color:cornflowerblue;
+    font-size: 22px;
+}
+#projects h1{
+    font-size: 36px;
+    margin: 100px auto 50px;
+    text-decoration: underline;
+}
+#project-tiles{
+    display: flex;
+    width: 60%;
+    margin: auto;
+}
+#project-tiles a {
+    text-decoration: none;
+}
+.project-tile {
+    width: 40%;
+    box-shadow: 0px 0px 5px grey;
+}
+.project-tile img {
+    width: 100%
+}
+.project-tile p {
+    background: black;
+    color: white;
+    margin: 0px;
+    height: 50px;
+    line-height: 50px;
 }
 
-.project-tile img {
-    width: 200px
+#contact{
+    margin: 100px auto 20px ;
 }
+#contact h1 {
+    font-size: 32px;
+}
+
 
 @media screen and (max-width: 500px) {
-
+    #project-tiles{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto;
+    }
 }
